@@ -19,6 +19,10 @@ sequelize
 app.get('/', (req, res) => {
     res.send('Welcome to sequelize application');
 })
+
+const articleRouter = require('./routes/article');
+app.use('/', articleRouter);
+
 app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
 })
