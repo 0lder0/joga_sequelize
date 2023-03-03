@@ -10,6 +10,7 @@ module.exports = {
                 image: 'ashtanga.jpg',
                 body: '<p>Ashtanga Yoga is a system of  bla bla bla bla bla...</p>',
                 published: '2021-03-01 00:00:00',
+                author_id: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             }]),
@@ -19,6 +20,7 @@ module.exports = {
                 image: 'morning.jpg',
                 body: '<p>Morning vynysasa flow routine bla bla bla bla bla...</p>',
                 published: '2021-03-01 00:00:00',
+                author_id: 3,
                 createdAt: new Date(),
                 updatedAt: new Date()
             }]),
@@ -28,6 +30,7 @@ module.exports = {
                 image: 'yoga.teacher.jpg',
                 body: '<p>Secrets of a yoga teacher bla bla bla bla bla...</p>',
                 published: '2021-03-01 00:00:00',
+                author_id: 1,
                 createdAt: new Date(),
                 updatedAt: new Date()
             }]),
