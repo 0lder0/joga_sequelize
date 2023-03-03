@@ -3,5 +3,7 @@ const router = express.Router();
 const articleController = require('../controllers/article');
 
 router.get('/', articleController.getAllArticles)
+router.get('/article/:slug', articleController.getArticleBySlug)
+router.get('/articles/:author_id', articleController.getArticleByAuthor)
 
 module.exports = router;
