@@ -13,7 +13,7 @@ const getAllAuthors = (req,res) => {
         })
 }
 const getAuthorById = (req,res) => {
-    models.Author.findOne({
+    models.Authors.findOne({
         where: {
             id: req.params.id
         }
