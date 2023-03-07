@@ -4,6 +4,7 @@ const sequelize = new Sequelize('mysql://root:qwerty@localhost:3306/joga_sequeli
 const models = require('../models');
 
 
+
 const getAllArticles = (req, res) => {
     models.Article.findAll()
         .then(articles => {
@@ -58,5 +59,5 @@ const getArticleByAuthor = (req,res) =>{
 module.exports = {
     getAllArticles,
     getArticleBySlug,
-    getArticleByAuthor
+    getArticleByAuthor,
 }
